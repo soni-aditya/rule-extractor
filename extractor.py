@@ -15,8 +15,8 @@ def extract_rules_for_making_machine(doc_content):
 
     # Define the prompt template
     prompt_template = PromptTemplate(
-        input_variables=["document"],
-        template="Extract the rules for making a machine from the following document:\n\n{document}\n\nRules:"
+        # input_variables=["document"],
+        template=doc_content
     )
 
     # Create the LLMChain
