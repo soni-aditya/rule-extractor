@@ -1,0 +1,6 @@
+pillow
+pytesseract
+tesseract-ocr
+transformers
+langchain
+torch
